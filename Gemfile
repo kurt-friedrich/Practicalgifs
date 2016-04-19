@@ -31,6 +31,10 @@ gem 'client_side_validations'
 gem 'client_side_validations-simple_form'
 gem 'giphy'
 gem 'rails_12factor', group: :production
+gem 'refile', require: "refile/rails"
+gem "refile-mini_magick"
+gem 'refile-postgres'
+gem 'remotipart', '~> 1.2'
 
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
